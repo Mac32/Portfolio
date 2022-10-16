@@ -7,12 +7,12 @@ type pro = {
 
 export default function NavigationButton ({ title, description }: pro) {
   return (
-    <a href='#' className="grid text-sm w-32 border border-t-2 border-transparent border-t-slate-900">
+    <a href='#' className="grid text-sm w-32 border border-t-2 border-transparent border-t-slate-600">
       <div className='flex justify-between'>
         <span className="font-bold">{title}</span>
         <img className='w-4' src={arrow} />
         </div>
-      <span className="font-light text-justify">{description}</span>
+      <span className="font-light leading-none text-justify ">{description}</span>
     </a>
   )
 }
