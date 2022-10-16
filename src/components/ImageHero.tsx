@@ -1,6 +1,6 @@
 import Foto from '../assets/businessman.jpg'
 export default function ImageHero () {
   return (
-    <img className='-z-10' width={500} src={Foto} />
+    <img className='w-1/2 object-cover object-right' src={Foto} />
   )
 }

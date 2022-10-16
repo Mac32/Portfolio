@@ -1,10 +1,12 @@
 import './App.css'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
+import BackgroundBlur from './components/BackgroundBlur'
 
 function App () {
   return (
-    <div className='bg-repeat bg-[surl("./assets/Fondo2.svg")]'>
+    <div>
+      <BackgroundBlur />
       <NavBar />
       <Hero />
     </div>

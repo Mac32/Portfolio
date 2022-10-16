@@ -4,7 +4,7 @@ import IconTwitter from './icons/IconTwitter'
 
 export default function SocialSectionHero () {
   return (
-    <div className='w-28 flex flex-col'>
+    <div className='w-16 flex flex-col'>
       <div className=' w-8 m-auto flex flex-col gap-2'>
 
         <IconLinkedIn />

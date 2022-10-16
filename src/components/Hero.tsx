@@ -4,7 +4,7 @@ import SocialSectionHero from './SocialSectionHero'
 
 export default function Hero () {
   return (
-    <div className='flex mt-14'>
+    <div className='flex mt-1 justify-between'>
       <SocialSectionHero />
       <SectionDescriptionHero />
       <ImageHero />
