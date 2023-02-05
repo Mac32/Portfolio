@@ -1,11 +1,10 @@
 type param ={
   color: string,
-  width: number,
-  height: number
+  dimentions: number,
 }
-export default function IconInstagram ({color ='fill-gray-800', width = 32, height = 32}: param) {
+export default function IconInstagram ({color ='fill-gray-800', dimentions = 32}: param) {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height}>
+    <svg xmlns='http://www.w3.org/2000/svg' width={dimentions} height={dimentions}>
       <title>logo--instagram</title>
       <circle cx={22.406} cy={9.594} r={1.44} className={color} />
       <path className={color} d='M16 9.838A6.162 6.162 0 1 0 22.162 16 6.162 6.162 0 0 0 16 9.838ZM16 20a4 4 0 1 1 4-4 4 4 0 0 1-4 4Z' />

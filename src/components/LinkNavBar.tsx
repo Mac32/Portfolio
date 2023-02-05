@@ -1,18 +1,12 @@
-import arrow from '../assets/arrow-up-right.svg'
-
-type pro = {
-  title: string,
-  description: string
+interface pro {
+  title: string
+  href: string
 }
 
-export default function NavigationButton ({ title, description }: pro) {
+export default function NavigationButton ({ title, href = '#' }: pro): JSX.Element {
   return (
-    <a href='#' className="grid text-sm w-32 border border-t-2 border-transparent border-t-slate-600">
-      <div className='flex justify-between'>
-        <span className="font-bold">{title}</span>
-        <img className='w-4' src={arrow} />
-        </div>
-      <span className="font-light leading-none text-justify ">{description}</span>
+    <a href={href} title={title} className='hover:transition-all hover:ease-in-out hover:shadow-inner hover:animate-pulse  hover:shadow-[#2B1C8C]/90 text-white mx-2 py-2 px-3 rounded-md  font-bold'>
+      {title}
     </a>
   )
 }
