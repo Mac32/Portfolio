@@ -4,7 +4,7 @@
 
 @layer xcomponents {
   .bubble-effect{
-    animation: bubble 24s linear infinite;
+    animation: bubble 35s linear infinite;
   }
 
   
