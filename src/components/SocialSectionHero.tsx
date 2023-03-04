@@ -4,7 +4,7 @@ import IconTwitter from './icons/IconTwitter'
 
 export default function SocialSectionHero (): JSX.Element {
   return (
-    <div className='w-16 ml-1 flex flex-col'>
+    <div className='lg:w-16 lg:ml-1 flex flex-col w-1/6'>
       <div className=' w-8 m-auto flex flex-col gap-2'>
         <a className='hover:scale-110 ease-in-out duration-300' href='#'>
           <IconLinkedIn color='fill-white' />

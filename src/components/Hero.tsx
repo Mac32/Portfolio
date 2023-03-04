@@ -9,7 +9,7 @@ export default function Hero (): JSX.Element {
     <div className='flex flex-col relative justify-between'>
       <BackgroundHero />
       <NavBar />
-      <div className='flex relative mt-6 justify-between  '>
+      <div className='flex flex-wrap lg:flex-nowrap lg:flex-row relative mt-6 justify-between  '>
         <SocialSectionHero />
         <ImageHero />
         <SectionDescriptionHero />
