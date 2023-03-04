@@ -15,7 +15,7 @@ export default function SectionSkill (): JSX.Element {
     <div id='skills' className='mt-14 relative'>
       <H2 textAlign='text-center'>Skills</H2>
       <HorizontalLine />
-      <div className='grid grid-cols-4 gap-6 justify-between w-11/12 mx-auto my-14'>
+      <div className='grid sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center lg:justify-between w-11/12 mx-auto my-14'>
         <ContentSkill shadowColor='hover:shadow-orange-500/50'>
           <IconHTML dimentions={85} />
         </ContentSkill>
