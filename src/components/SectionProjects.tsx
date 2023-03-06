@@ -8,7 +8,7 @@ export default function SectionProjects (): JSX.Element {
 
       <H2 textAlign='text-center'>Projects</H2>
       <HorizontalLine />
-      <div className='grid lg:grid-cols-4 w-11/12 mx-auto my-10'>
+      <div className='grid md:grid-cols-2 lg:grid-cols-4 w-11/12 mx-auto my-10'>
         <CardProject />
       </div>
     </div>
