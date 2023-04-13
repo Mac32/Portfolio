@@ -5,36 +5,36 @@ import IconCheck from './icons/IconCheck'
 import IconAudits from './icons/IconAudits'
 import IconAnalytics from './icons/IconAnalytics'
 
-export default function SectionService () {
+export default function SectionService (): JSX.Element {
   return (
     <div id='helpYou' className='mt-10'>
-      <H2 textAlign='text-center'>Wha Do I Help</H2>
+      <H2 textAlign='text-center'>Servicios</H2>
       <div className='mt-5 flex justify-around gap-6 flex-wrap'>
         <CardService
           number='01'
-          title='Designer + Development'
-          description='Clean, modern designs - optimized for performance, search engines, and converting users to customers.'
+          title='Diseño y Desarrollo'
+          description='Diseños limpios y modernos optimizados para el mejor rendimiento y la conversion de usuarion a clientes.'
         >
           <IconDesign dimentions={70} />
         </CardService>
         <CardService
           number='02'
-          title='Mobile Friendly'
-          description='A responsive design makes your website accessible to all users, regardless of their device.'
+          title='Amigable con mobiles'
+          description='Realizo diseños responsivos que hacen a tu sitio web accesible para todos los usuarios sin importar su dispositivo.'
         >
           <IconCheck dimentions={70} />
         </CardService>
         <CardService
           number='03'
-          title='Audits'
-          description='Looking to improve your page performance, SEO, or user experience? Request a free site audit.'
+          title='Auditorias'
+          description='LLevo a cabo auditorias para mejorar tanto el rendimiento de la página, el SEO y la experiencia de usuario.'
         >
           <IconAudits dimentions={70} />
         </CardService>
         <CardService
           number='04'
-          title='Analytics'
-          description='Get insights into who is browsing your site so that you can make smarter business decisions.'
+          title='Analíticas'
+          description='Doy información sobre la navegación por su sitio para que pueda tomar decisiones comerciales más inteligentes.'
         >
           <IconAnalytics dimentions={70} />
         </CardService>

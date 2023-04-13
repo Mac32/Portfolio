@@ -13,7 +13,7 @@ import IconTailwindCSS from './icons/IconTailwindCSS'
 export default function SectionSkill (): JSX.Element {
   return (
     <div id='skills' className='mt-14 relative'>
-      <H2 textAlign='text-center'>Skills</H2>
+      <H2 textAlign='text-center'>Habilidades</H2>
       <HorizontalLine />
       <div className='grid sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center lg:justify-between w-11/12 mx-auto my-14'>
         <ContentSkill shadowColor='hover:shadow-orange-500/50'>
